@@ -1,0 +1,78 @@
+body{
+    height: 100px;
+    padding: 0px;
+    background-color: #fcfafa;
+    border: 2px solid black;
+}
+#Navbar{
+    border: 2px solid black;
+     padding-bottom: 21.8px;
+     display: flex;
+     justify-content: space-between;
+     background-image: url("https://tse4.mm.bing.net/th?id=OIP.uH56cyoVkivA7rWfohdvAgHaCh&pid=Api&P=0&h=180");
+     background-repeat: no-repeat; /*no reapeat image*/
+     background-size: cover;
+}
+
+#intro{
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-between;
+}
+#edu{
+    display: flex;
+     justify-content: space-between;
+     table-layout: auto;
+}
+#ssc{
+    display: flex;
+     justify-content: space-between;
+    
+     width: 98vw;
+}
+#hsc{
+    display: flex;
+     justify-content: space-between;
+     
+     width: 98vw;
+}
+#ty{
+    display: flex;
+     justify-content: space-between;
+     
+     width: 98vw;
+}
+#skill{
+    border: 2px solid black;
+}
+
+#skil{
+    border: 2px solid black;
+}
+    
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container {
+    display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+            padding: 10px;
+  }
+  .grid-item{
+    background-color: #ddd;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+  }
+#op{
+    display: grid;
+    grid-column-start:  2;
+    grid-column-end: 4;
+}

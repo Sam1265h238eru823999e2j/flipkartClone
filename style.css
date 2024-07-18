@@ -20,10 +20,16 @@ body{
      background-image: url();
      background-repeat: no-repeat; /no reapeat image/
      background-size: cover;
-     background-color: #141313;
+     background:transparent;
     border: 8px solid #0000;
-    
+    position: relative;
+    transition: color 0.25;
+    color: #fefefe;
+    padding: 0.5rem 0.75rem;
+    text-decoration: ;
 }
+
+
 .trans{
     background:transparent;
 }
@@ -128,7 +134,7 @@ ul{
 #log{
     display: flex;
     justify-content: right;
-    gap: 1vw;
+    gap: 0.50vw;
 }
 #intimg{
     display: flex;

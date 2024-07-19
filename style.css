@@ -10,6 +10,8 @@ body{
     font-size: 25px;
     text-decoration: none;
     font-weight: 500px  ;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #Navbar{
     box-shadow: 5px 7px 7px black;
@@ -26,13 +28,9 @@ body{
     transition: color 0.25;
     color: #fefefe;
     padding: 0.5rem 0.75rem;
-    text-decoration: ;
+    text-decoration:none ;
 }
 
-
-.trans{
-    background:transparent;
-}
 .Navbar button{
     background-color:00abf0;
 }
@@ -150,4 +148,29 @@ ul{
     justify-content:left;
     font-size: 20px;
 }
+.trans::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #2A86ff;
+    transition: 0.5s linear;
+  }
+  .trans:hover {
+    color: #ff2a2a;
+  }
+  .trans:hover:after {
+    width: 100%;
+  }
+  .trans{
+    color: #ffffff;
+  text-decoration: none;
+  padding: 0 20px;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: 0.2s;
+  }
+
 
